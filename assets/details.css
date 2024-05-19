@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* start nav */
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+}
+
+.imgs {
+    width: 170px;
+    margin-left: 50px;
+}
+
+.navbar ul {
+
+    margin-right: 50px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    color: black;
+    margin-left: 40px;
+
+}
+
+.navbar ul li a:hover {
+    color: rgb(15, 15, 185);
+}
+
+
+
+.miin {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    width: 80%;
+    height: fit-content;
+    margin: 20px;
+    direction: rtl;
+    padding: 20px 20px 40px 20px;
+
+}
+
+.img {
+    width: 720px;
+    height: 500px;
+    margin: 10px 40px;
+    border-radius: 5px;
+}
+
+.main p {
+    margin: 10px 40px;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.main h1 {
+    margin: 10px 40px;
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 23px;
+    color: red;
+}
+
+.title h1 {
+    display: flex;
+    justify-content: right;
+    margin: 20px 80px 20px 0px;
+    color: rgb(15, 15, 185);
+}
+
+.information {
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    width: 80%;
+    height: 370px;
+    margin: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 170px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    margin-top: 50px;
+
+}
+
+.box h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    color: #00D2FC;
+    font-size: 30px;
+}
+
+.box h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #909090;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.details1 {
+    display: flex;
+    justify-content: right;
+}
+
+.boxs {
+    width: 170px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    margin-top: 40px;
+    margin-right: 42px;
+
+}
+
+.boxs h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    color: #00D2FC;
+    font-size: 30px;
+}
+
+.boxs h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #909090;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+#box {
+    margin-right: 80px;
+}
+
+.seystem {
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    width: 80%;
+    height: fit-content;
+    margin: 20px;
+    padding: 20px;
+}
+
+.seystem p {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    direction: rtl;
+}
+
+
+
+
+
+footer {
+    background-color: #00D2FC;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-top: 60px;
+    height: 400px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+}
+
+footer .footer_right {
+    width: 35%;
+    margin-right: 50px;
+
+
+
+}
+
+footer .footer_right img {
+    width: 50%;
+    height: 80px;
+}
+
+footer .footer_right p {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+footer .footer_center {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+
+
+}
+
+footer .footer_center .hc {
+    color: black;
+    font-size: 30px;
+
+
+
+}
+
+footer .footer_center .a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+footer .footer_left {
+    margin-left: 130px;
+
+}
+
+footer .footer_left .hf {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+footer .footer_left .folow i {
+    font-size: 50px;
+    margin-left: 13px;
+    margin-top: 20px;
+    color: #7b7b7b;
+}
+footer .footer_left .folow i:hover {
+    font-size: 50px;
+    margin-left: 13px;
+    margin-top: 20px;
+    color: #d3d3d3;
+}
